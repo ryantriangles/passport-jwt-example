@@ -1,0 +1,25 @@
+{
+  "name": "passport_jwt_example",
+  "description": "A simple example package demonstrating the use of Express with Passport and JWT-based registration and login.",
+  "author": {
+    "name": "Ryan Plant",
+    "email": "ryan@ryanplant.net",
+    "url": "http://ryanplant.net"
+  },
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "jest": "^23.6.0",
+    "jwt-simple": "^0.5.5",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0"
+  }
+}
